@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Jocaf</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="quem_somos.html">Quem Somos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="como_ajudar.html">Como Ajudar</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+        <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+
+        <form action="https://formsubmit.co/tandandan@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Informe seu nome!" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="informe seu e-mail!" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem!" rows="5" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jocaf - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
